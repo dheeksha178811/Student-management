@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = process.env.API_URL || "http://localhost:5000";
+const API = "https://stu-backend-gfzl.onrender.com";
 
 function App() {
   const [form, setForm] = useState({
